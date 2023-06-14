@@ -1,0 +1,72 @@
+[
+    {
+    "codigo": 123,
+    "nomeCompleto": "Eduardo Kuritza",
+    "endereco": "Endereço exemplo",
+    "telefone": "1234567890",
+    "cpf": "123.456.789-00",
+    "dadosCartao": {
+      "nomeCartao": "Nome no Cartão",
+      "numeroCartao": 1234567890123456,
+      "cvc": 123
+    },
+    "email": "exemplo@email.com",
+    "senha": "senha123"
+  },
+  {
+    "codigo": 122,
+    "nomeCompleto": "Eduardo Luciano",
+    "endereco": "Endereço exemplo",
+    "telefone": "1234567890",
+    "cpf": "123.456.789-00",
+    "dadosCartao": {
+      "nomeCartao": "Nome no Cartão",
+      "numeroCartao": 1234567890123456,
+      "cvc": 123
+    },
+    "email": "exem@email.com",
+    "senha": "senha123"
+  },
+  {
+    "codigo": 55,
+    "nomeCompleto": "Eduardo Kuritza",
+    "endereco": "Endereço exemplo",
+    "telefone": "1234567890",
+    "cpf": "123.456.789-00",
+    "dadosCartao": {
+      "nomeCartao": "Nome no Cartão",
+      "numeroCartao": 1234567890123456,
+      "cvc": 123
+    },
+    "email": "exemplo@email.com",
+    "senha": "senha123"
+  },
+  {
+    "codigo": 44,
+    "nomeCompleto": "Eduardo Kuritza",
+    "endereco": "Endereço exemplo",
+    "telefone": "1234567890",
+    "cpf": "123.456.789-00",
+    "dadosCartao": {
+      "nomeCartao": "Nome no Cartão",
+      "numeroCartao": 1234567890123456,
+      "cvc": 123
+    },
+    "email": "exemplo@email.com",
+    "senha": "senha123"
+  },
+  {
+    "codigo": 123,
+    "nomeCompleto": "Eduardo Kuritza",
+    "endereco": "Endereço exemplo",
+    "telefone": "1234567890",
+    "cpf": "123.456.789-00",
+    "dadosCartao": {
+      "nomeCartao": "Nome no Cartão",
+      "numeroCartao": 1234567890123456,
+      "cvc": 123
+    },
+    "email": "exemplo@email.com",
+    "senha": "senha123"
+  }
+]

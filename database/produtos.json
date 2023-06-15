@@ -1,0 +1,47 @@
+[
+    {
+    "codigo": 1,
+    "nome": "Ração para Cães",
+    "descricao": "Ração premium para cães de todas as raças",
+    "preco": 49.99,
+    "categoria": 1, 
+    "animal": "Cachorro",
+    "comentario": "Ótima ração, meu cachorro adora!",
+    "nota": 5,
+    "notaTotal": 3.2
+  },
+  {
+    "codigo": 2,
+    "nome": "Ração para Gatos",
+    "descricao": "Ração premium para gatos de todas as raças",
+    "preco": 49.99,
+    "categoria": 2, 
+    "animal": "Gato",
+    "comentario": "Ótima ração, meu Gato adora!",
+    "nota": 5,
+    "notaTotal": 3.2
+  },
+  {
+    "codigo": 3,
+    "nome": "Ração para passarinho",
+    "descricao": "Ração premium para passarinho de todas as raças",
+    "preco": 49.99,
+    "categoria": 3, 
+    "animal": "Passarinho",
+    "comentario": "Ótima ração, meu passarinho adora!",
+    "nota": 5,
+    "notaTotal": 3.2
+  },
+  {
+    "codigo": 4,
+    "nome": "Ração para peixes",
+    "descricao": "Ração premium para peixes de todas as raças",
+    "preco": 49.99,
+    "categoria": 4, 
+    "animal": "Peixe",
+    "comentario": "Ótima ração, meu peixe adora!",
+    "nota": 5,
+    "notaTotal": 3.2
+  }
+
+]

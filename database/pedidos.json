@@ -1,0 +1,50 @@
+[
+    {
+    "codigo": 1,
+    "preco": 20,
+    "produtos": [
+      {
+        "produto": 1,
+        "quantidade": 2
+      },
+      {
+        "produto": 2,
+        "quantidade": 1
+      }
+    ],
+    "cliente": 123,
+    "status": "Em andamento"
+  },
+  {
+    "codigo": 1,
+    "preco": 20,
+    "produtos": [
+      {
+        "produto": 1,
+        "quantidade": 2
+      },
+      {
+        "produto": 2,
+        "quantidade": 1
+      }
+    ],
+    "cliente": 123,
+    "status": "Em andamento"
+  },
+  {
+    "codigo": 1,
+    "preco": 20,
+    "produtos": [
+      {
+        "produto": 1,
+        "quantidade": 2
+      },
+      {
+        "produto": 2,
+        "quantidade": 1
+      }
+    ],
+    "cliente": 123,
+    "status": "Em andamento"
+  }
+]

@@ -4,7 +4,7 @@ const pedidoController = require('../controllers/pedidoController');
 
 router.post('/criarPedido', pedidoController.salvar);
 router.get('/pedidos', pedidoController.listarPedidos);
-router.put('/editarStatus/:codigo/status', pedidoController.editarStatus);
-router.get('/pedidosPorClientes/:clienteId', pedidoController.listarPedidoPorCliente);
+router.put('/atualizaStatus/:codigo', pedidoController.editarStatus);
+router.get('/:codigoCliente', pedidoController.listarPedidoPorCliente);
 
 module.exports = router;

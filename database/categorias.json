@@ -1,0 +1,24 @@
+[
+    {
+        "codigo": 1,
+        "nome": "Mantimentos",
+        "descricao": "Categoria de mantimentos para pets"
+    },
+    {
+        "codigo": 2,
+        "nome": "Cosmético",
+        "descricao": "Categoria de cosméticos para pets"
+    },
+    {
+        "codigo": 3,
+        "nome": "Brinquedos",
+        "descricao": "Categoria de brinquedinhos para pets"
+    },
+    {
+        "codigo": 4,
+        "nome": "Transporte",
+        "descricao": "Categoria de produtos de transporte para pets"
+    }
+]
+    
+    

@@ -1,0 +1,24 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "PETSHOP UP",
+      "description": "Petshop da maior do Paraná",
+      "version": "1.0"
+    },
+    "host": "localhost:8000",
+    "basePath": "/",
+    "schemes": [
+      "http"
+    ],
+    "paths": {
+      "/cliente": {
+        "get": {
+          "description": "",
+          "operationId": "",
+          "parameters": [
+          ],
+          "responses": {}
+        }
+      }
+    }   
+}

@@ -12,7 +12,6 @@ class ClienteController {
           return res.status(400).send({ error: 'Cliente já cadastrado!' });
         }
         const resultado = await clienteModel.create(cliente);
-        await auth.incluirToken(resultado);
       
         res.status(201).json(resultado);
       }

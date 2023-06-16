@@ -22,6 +22,10 @@ senha: {
     type: String,
     required: true,
     select: false
+},
+token: {
+  type: String,
+  select: false
 }
 });
 

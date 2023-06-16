@@ -26,7 +26,8 @@ senha: {
 token: {
   type: String,
   select: false
-}
+},
+imagem: Buffer
 });
 
 clienteSchema.pre('save', async function (next) {

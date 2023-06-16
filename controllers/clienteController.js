@@ -1,19 +1,24 @@
 const clienteModel = require('../models/clienteModel');
-const auth = require('../auth/auth');
+const multer = require('multer');
 
+
+const storage = multer.memoryStorage();
 
 class ClienteController {
     async salvar(req, res) {
+        try {
         const cliente = req.body;
         const max = await clienteModel.findOne({}).sort({ codigo: -1 });
         cliente.codigo = max == null ? 1 : max.codigo + 1;
-      
-        if (await clienteModel.findOne({ email: cliente.email })) {
-          return res.status(400).send({ error: 'Cliente já cadastrado!' });
+
+        cliente.imagem = req.file ? req.file.buffer : null; 
+    
+          const resultado = await clienteModel.create(cliente);
+          res.status(201).json(resultado);
+        } catch (error) {
+          console.log('Erro ao cadastrar o cliente:', error);
+          res.status(500).json({ error: 'Erro ao cadastrar o cliente' });
         }
-        const resultado = await clienteModel.create(cliente);
-      
-        res.status(201).json(resultado);
       }
 
     async listar(req, res) {

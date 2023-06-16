@@ -9,7 +9,8 @@ const produtoSchema = new mongoose.Schema({
   animal: String,
   comentario: String,
   nota: Number,
-  notaTotal:Number
+  notaTotal:Number,
+  imagem: Buffer
 });
 
 module.exports = mongoose.model('produto', produtoSchema);

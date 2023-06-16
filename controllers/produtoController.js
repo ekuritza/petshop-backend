@@ -6,6 +6,7 @@ class ProdutoController {
     async salvar(req, res) {
         try {
           const produto = req.body;
+          produto.imagem = req.file ? req.file.buffer : null; 
           const max = await produtoModel.findOne({}).sort({ codigo: -1 });
           produto.codigo = max == null ? 1 : max.codigo + 1;
 
@@ -22,6 +23,7 @@ class ProdutoController {
           res.status(500).json({ error: 'Erro ao cadastrar o produto' });
         }
       }  
+      
 
       async listarProdutos(req, res) {
         try {

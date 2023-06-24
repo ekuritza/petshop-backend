@@ -31,9 +31,16 @@ imagem: Buffer
 });
 
 clienteSchema.pre('save', async function (next) {
-  const hash = await bcryptjs.hash(this.senha, 10);
-  this.senha = hash;
-  next();
+  if (!this.isModified('senha')) {
+    return next();
+  }
+  try {
+    const hash = await bcryptjs.hash(this.senha, 10);
+    this.senha = hash;
+    next();
+  } catch (error) {
+    next(error);
+  }
 });
 
 module.exports = mongoose.model('clientes', clienteSchema);

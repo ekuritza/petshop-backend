@@ -10,7 +10,7 @@
       "numeroCartao": 1234567890123456,
       "cvc": 123
     },
-    "email": "exemplo@email.com",
+    "email": "exemplo1@email.com",
     "senha": "senha123"
   },
   {
@@ -24,7 +24,7 @@
       "numeroCartao": 1234567890123456,
       "cvc": 123
     },
-    "email": "exem@email.com",
+    "email": "exemplo2@email.com",
     "senha": "senha123"
   },
   {
@@ -38,7 +38,7 @@
       "numeroCartao": 1234567890123456,
       "cvc": 123
     },
-    "email": "exemplo@email.com",
+    "email": "exemplo3@email.com",
     "senha": "senha123"
   },
   {
@@ -52,7 +52,7 @@
       "numeroCartao": 1234567890123456,
       "cvc": 123
     },
-    "email": "exemplo@email.com",
+    "email": "exemplo4@email.com",
     "senha": "senha123"
   },
   {

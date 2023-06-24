@@ -10,7 +10,7 @@ class ProdutoController {
           const max = await produtoModel.findOne({}).sort({ codigo: -1 });
           produto.codigo = max == null ? 1 : max.codigo + 1;
 
-          const categoria = await categoriaModel.findOne({});
+          const categoria = await categoriaModel.findOne({codigo: produto.categoria});
           if (!categoria) {
             return res.status(404).json({ error: 'Nenhuma categoria encontrada no seu banco de dados' });
           }
